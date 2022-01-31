@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/garretcharp/cdk-constructs/compare/v0.1.1...v0.1.2) (2022-01-31)
+
+
+### Bug Fixes
+
+* **algolia:** code size ([412ac3c](https://github.com/garretcharp/cdk-constructs/commit/412ac3cbb9ffc108b8ae45f5887cb418235ea90a))
+
+
+
+
+
 ## [0.1.1](https://github.com/garretcharp/cdk-constructs/compare/v0.1.0...v0.1.1) (2022-01-31)
 
 
