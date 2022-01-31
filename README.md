@@ -1,6 +1,6 @@
 # @garretcharp/cdk-constructs
 
-![npm (scoped)](https://img.shields.io/npm/v/@garretcharp/cdk-constructs-algolia?color=green&style=for-the-badge) ![npm](https://img.shields.io/npm/dm/@garretcharp/cdk-constructs?color=blue&label=v1%20Downloads&logo=Amazon%20AWS&style=for-the-badge) ![npm](https://img.shields.io/npm/dm/@garretcharp/cdk-constructs-v2?color=blue&label=v2%20Downloads&logo=Amazon%20AWS&style=for-the-badge)
+![npm (scoped)](https://img.shields.io/npm/v/@garretcharp/cdk-constructs-algolia?color=green&style=for-the-badge)
 
 A collection of constructs to make life easier when using external resources for the [AWS CDK](https://github.com/awslabs/aws-cdk).
 
