@@ -11,6 +11,6 @@
     }
   },
   "scripts": {
-    "publish": "lerna run build && lerna publish --conventional-commits --yes --force-publish"
+    "publish": "lerna run build && lerna publish --conventional-commits --force-publish"
   }
 }
