@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"lib": ["es2020"],
+		"outDir": "dist",
+		"target": "ES2020",
+		"module": "commonjs",
+		"strict": true,
+		"declaration": true,
+		"skipLibCheck": true,
+		"inlineSources": true,
+		"inlineSourceMap": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src"]
+}
