@@ -5,8 +5,8 @@ This construct allows you to create indexes on Algolia inside of the AWS CDK.
 ## Usage
 
 ```js
-import { AlgoliaIndex } from '@garretcharp/cdk-constructs-algolia'
-import { SecretValue } from '@aws-cdk/core'
+import { AlgoliaIndex } from '@garretcharp/cdk-constructs-algolia-v2'
+import { SecretValue } from 'aws-cdk-lib'
 
 const MyIndex = new AlgoliaIndex(this, 'MyIndex', {
 	indexName: `${this.stage}-my-index`,
