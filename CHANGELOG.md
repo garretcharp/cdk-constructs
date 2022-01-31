@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/garretcharp/cdk-constructs/compare/v0.1.0...v0.1.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* **algolia:** Build using tsc, remove unneeded packages ([8f7d525](https://github.com/garretcharp/cdk-constructs/commit/8f7d525b637e931afa34012e4208cf1977688306))
+
+
+
+
+
 # 0.1.0 (2022-01-31)
 
 
