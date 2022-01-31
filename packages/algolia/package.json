@@ -18,5 +18,8 @@
   "peerDependencies": {
     "@aws-cdk/aws-lambda": "^1.126.0",
     "@aws-cdk/core": "^1.126.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
