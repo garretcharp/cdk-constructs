@@ -3,6 +3,8 @@ import { Construct, CustomResource, Duration, SecretValue } from '@aws-cdk/core'
 import { join } from 'path'
 import { readFileSync } from 'fs'
 
+import Uglify from 'uglify-js'
+
 // NOTE: This is only a subset of the full algolia index settings (https://www.algolia.com/doc/api-reference/settings-api-parameters/)
 export interface AlgoliaIndexSettings {
 	searchableAttributes?: string[] | null
@@ -46,7 +48,11 @@ export class AlgoliaIndex extends Construct {
 		const handler = new SingletonFunction(this, 'AlgoliaIndexHandler', {
 			uuid: 'b8f4d49a-74a5-44c5-a99b-bd161bba167a',
 			runtime: Runtime.NODEJS_14_X,
-			code: Code.fromInline(readFileSync(join(__dirname, 'lambdas', 'index-settings.js'), { encoding: 'utf-8' })),
+			code: Code.fromInline(
+				Uglify.minify(
+					readFileSync(join(__dirname, 'lambdas', 'index-settings.js'), { encoding: 'utf-8' })
+				).code
+			),
 			handler: 'index.handler',
 			lambdaPurpose: 'Custom::AlgoliaIndexHandler',
 			timeout: Duration.minutes(1),
