@@ -10,12 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-cdk-lib": "^2.00.0",
-    "constructs": "^10.0.50",
     "uglify-js": "^3.15.0"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.00.0"
+    "aws-cdk-lib": "^2.00.0",
+    "constructs": "^10.0.50"
   },
   "publishConfig": {
     "access": "public"

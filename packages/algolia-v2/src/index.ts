@@ -27,7 +27,7 @@ export interface AlgoliaIndexProps {
 	indexName: string
 	settings: AlgoliaIndexSettings
 	apiKey: SecretValue
-	appId: string
+	appId: SecretValue | string
 }
 
 export class AlgoliaIndex extends Construct {
@@ -67,7 +67,7 @@ export class AlgoliaIndex extends Construct {
 				indexName: props.indexName,
 				settings: props.settings,
 				apiKey: props.apiKey.toString(),
-				appId: props.appId,
+				appId: props.appId.toString(),
 			}
 		})
 
