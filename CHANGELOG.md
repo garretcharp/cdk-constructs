@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/garretcharp/cdk-constructs/compare/v0.3.0...v0.3.1) (2022-02-23)
+
+
+### Bug Fixes
+
+* Move to peer deps ([87c17ad](https://github.com/garretcharp/cdk-constructs/commit/87c17adbc26a23b820c527f906d78a035ba71885))
+
+
+
+
+
 # [0.3.0](https://github.com/garretcharp/cdk-constructs/compare/v0.2.0...v0.3.0) (2022-01-31)
 
 

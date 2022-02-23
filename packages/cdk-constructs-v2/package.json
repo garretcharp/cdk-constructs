@@ -1,6 +1,6 @@
 {
   "name": "@garretcharp/cdk-constructs-v2",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@garretcharp/cdk-constructs-algolia-v2": "^0.3.0"
+    "@garretcharp/cdk-constructs-algolia-v2": "^0.3.1"
   }
 }
